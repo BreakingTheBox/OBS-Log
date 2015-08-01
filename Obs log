@@ -1,0 +1,132 @@
+15:41:45: Open Broadcaster Software v0.651b - 32bit (´・ω・｀)
+15:41:45: -------------------------------
+15:41:45: CPU Name: AMD FX(tm)-6100 Six-Core Processor
+15:41:45: CPU Speed: 3300MHz
+15:41:45: Physical Memory:  4095MB Total, 4095MB Free
+15:41:45: stepping id: 2, model 1, family 21, type 0, extmodel 0, extfamily 3, HTT 1, logical cores 6, total cores 3
+15:41:45: monitor 1: pos={0, 0}, size={1920, 1080}
+15:41:45: Windows Version: 6.2 Build 9200 
+15:41:45: Aero is Enabled
+15:41:45: -------------------------------
+15:41:45: OBS Modules:
+15:41:45: Base Address     Module
+15:41:45: 01120000         OBS.exe
+15:41:45: 63FD0000         OBSApi.dll
+15:41:45: 6E1D0000         DShowPlugin.dll
+15:41:45: 633F0000         GraphicsCapture.dll
+15:41:45: 633C0000         NoiseGate.dll
+15:41:45: 6A190000         PSVPlugin.dll
+15:41:45: 64340000         scenesw.dll
+15:41:45: ------------------------------------------
+15:41:45: Adapter 1
+15:41:45:   Video Adapter: AMD Radeon HD 7700 Series
+15:41:45:   Video Adapter Dedicated Video Memory: 1051348992
+15:41:45:   Video Adapter Shared System Memory: 3243552768
+15:41:45:   Video Adapter Output 1: pos={0, 0}, size={1920, 1080}, attached=true
+15:41:45: =====Stream Start: 2015-08-01, 15:41:45===============================================
+15:41:45:   Multithreaded optimizations: On
+15:41:45:   Base resolution: 1920x1080
+15:41:45:   Output resolution: 1920x1080
+15:41:45: ------------------------------------------
+15:41:45: Loading up D3D10 on AMD Radeon HD 7700 Series (Adapter 1)...
+15:41:45: ------------------------------------------
+15:41:45: Audio Format: 48000 Hz
+15:41:45: ------------------------------------------
+15:41:45: Audio Channels: 2 Ch
+15:41:45: Playback device Default
+15:41:45: ------------------------------------------
+15:41:45: Using desktop audio input: Speakers (Realtek High Definition Audio)
+15:41:45: Global Audio time adjust: 0
+15:41:45: Using 5.1 speaker setup
+15:41:45: ------------------------------------------
+15:41:45: Audio Encoding: AAC
+15:41:45:     bitrate: 320
+15:41:45: Using graphics capture
+15:41:45: Trying to hook process: Terraria.exe
+15:41:45: Scene buffering time set to 700
+15:41:45: ------------------------------------------
+15:41:45: Video Encoding: x264
+15:41:45:     fps: 60
+15:41:45:     width: 1920, height: 1080
+15:41:45:     preset: veryfast
+15:41:45:     profile: high
+15:41:45:     keyint: 120
+15:41:45:     CBR: yes
+15:41:45:     CFR: yes
+15:41:45:     max bitrate: 20000
+15:41:45:     buffer size: 20000
+15:41:45: ------------------------------------------
+15:41:45: using memory capture
+15:42:06: FlushBufferedVideo: Flushing 24 packets over 384 ms
+15:42:06: Total frames encoded: 1244, total frames duplicated: 284 (22.83%)
+15:42:06: Number of frames skipped due to encoder lag: 229 (18.41%)
+15:42:06: Total frames rendered: 1032, number of late frames: 15 (1.45%) (it's okay for some frames to be late)
+15:42:06: 
+15:42:06: Profiler time results:
+15:42:06: 
+15:42:06: ==============================================================
+15:42:06: video thread frame - [100%] [avg time: 2.857 ms] [children: 14.9%] [unaccounted: 85.1%]
+15:42:06: | scene->Preprocess - [0.175%] [avg time: 0.005 ms]
+15:42:06: | GPU download and conversion - [14.8%] [avg time: 0.422 ms] [children: 13.7%] [unaccounted: 1.12%]
+15:42:06: | | flush - [12.6%] [avg time: 0.359 ms]
+15:42:06: | | CopyResource - [0.84%] [avg time: 0.024 ms]
+15:42:06: | | conversion to 4:2:0 - [0.245%] [avg time: 0.007 ms]
+15:42:06: Convert444Thread - [100%] [avg time: 2.478 ms] [children: 99.4%] [unaccounted: 0.646%]
+15:42:06: | Convert444toNV12 - [99.4%] [avg time: 2.462 ms]
+15:42:06: encoder thread frame - [100%] [avg time: 8.281 ms] [children: 1.55%] [unaccounted: 98.5%]
+15:42:06: | sending stuff out - [1.55%] [avg time: 0.128 ms]
+15:42:06: ==============================================================
+15:42:06: 
+15:42:06: 
+15:42:06: Profiler CPU results:
+15:42:06: 
+15:42:06: ==============================================================
+15:42:06: video thread frame - [cpu time: avg 2.165 ms, total 2234.38 ms] [avg calls per frame: 1]
+15:42:06: | scene->Preprocess - [cpu time: avg 0 ms, total 0 ms] [avg calls per frame: 1]
+15:42:06: | GPU download and conversion - [cpu time: avg 0.166 ms, total 171.875 ms] [avg calls per frame: 1]
+15:42:06: | | flush - [cpu time: avg 0.045 ms, total 46.875 ms] [avg calls per frame: 1]
+15:42:06: | | CopyResource - [cpu time: avg 0.095 ms, total 93.75 ms] [avg calls per frame: 1]
+15:42:06: | | conversion to 4:2:0 - [cpu time: avg 0.015 ms, total 15.625 ms] [avg calls per frame: 1]
+15:42:06: Convert444Thread - [cpu time: avg 2.238 ms, total 2203.13 ms] [avg calls per frame: 1]
+15:42:06: | Convert444toNV12 - [cpu time: avg 2.238 ms, total 2203.13 ms] [avg calls per frame: 1]
+15:42:06: encoder thread frame - [cpu time: avg 3.137 ms, total 3828.13 ms] [avg calls per frame: 1]
+15:42:06: | sending stuff out - [cpu time: avg 0.076 ms, total 93.75 ms] [avg calls per frame: 1]
+15:42:06: ==============================================================
+15:42:06: 
+15:42:06: =====Stream End: 2015-08-01, 15:42:06=================================================
+15:42:39: Terminating 0x1fc0
+
+
+Last game capture log:
+2015-08-01, 15:41:45: we're booting up: 
+15:41:45: CaptureThread: attached to process Terraria.exe
+15:41:45: D3D9 Present
+15:41:45: (half life scientist) everything..  seems to be in order
+15:41:45: D3D9EndScene called
+15:41:45: D3DPRESENT_PARAMETERS {
+15:41:45: 	BackBufferWidth: 1920
+15:41:45: 	BackBufferHeight: 1080
+15:41:45: 	BackBufferFormat: D3DFMT_A8R8G8B8
+15:41:45: 	BackBufferCount: 1
+15:41:45: 	MultiSampleType: D3DMULTISAMPLE_NONE
+15:41:45: 	MultiSampleQuality: 0
+15:41:45: 	SwapEffect: D3DSWAPEFFECT_DISCARD
+15:41:45: 	hDeviceWindow: 1246738
+15:41:45: 	Windowed: false
+15:41:45: 	EnableAutoDepthStencil: true
+15:41:45: 	AutoDepthStencilFormat: D3DFMT_D24X8
+15:41:45: 	Flags: None
+15:41:45: 	FullScreen_RefreshRateInHz: 59
+15:41:45: 	PresentationInterval: 1
+15:41:45: };
+15:41:45: WARNING: Another hook is already present while trying to hook d3d9.dll, hook target is unknown. If you experience crashes, try disabling the other hooking application
+15:41:45: WARNING: Another hook is already present while trying to hook d3d9.dll, hook target is unknown. If you experience crashes, try disabling the other hooking application
+15:41:45: WARNING: Another hook is already present while trying to hook d3d9.dll, hook target is unknown. If you experience crashes, try disabling the other hooking application
+15:41:45: successfully set up d3d9 hooks
+15:41:45: D3D9Present called
+15:41:45: DoD3D9CPUHook: success
+15:41:45: successfully capturing d3d9 frames via CPU
+15:42:06: ---------------------- Cleared D3D9 Capture ----------------------
+15:42:06: D3D9EndScene called
+15:42:06: D3D9Present called
+
